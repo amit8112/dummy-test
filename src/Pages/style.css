@@ -1,0 +1,202 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-24 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.service-24 h1, .service-24 h2, .service-24 h3, .service-24 h4, .service-24 h5, .service-24 h6 {
+  color: #3e4555;
+}
+
+.service-24 .card.card-shadow {
+    -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+    box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-24 a {
+	text-decoration: none;
+}
+
+.service-24 .card-hover:hover {
+	  background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+}
+
+.service-24 .card-hover:hover .bg-success-grediant {
+	  color: #ffffff;
+    text-fill-color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+}
+
+.service-24 .card-hover:hover .ser-title {
+	color: #ffffff;
+}
+
+.service-24 .bg-success-grediant {
+		background: #2cdd9b;
+    background: -webkit-linear-gradient(legacy-direction(to right), #2cdd9b 0%, #1dc8cc 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#2cdd9b), to(#1dc8cc));
+    background: -webkit-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: -o-linear-gradient(left, #2cdd9b 0%, #1dc8cc 100%);
+    background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    font-size: 50px;
+}
+
+.service-24 .wrap-service-24 .card {
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+}
+
+.service-24 .wrap-service-24 .card:hover {
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+}
+
+.service-24 .btn-outline-success {
+		color: #2cdd9b !important;
+    background-color: transparent;
+    border-color: #2cdd9b;
+}
+
+.service-24 .btn-outline-success:hover {
+		background: #2cdd9b;
+    border-color: #2cdd9b;
+    color: #ffffff !important;
+}
+
+.service-24 .btn-md {
+    padding: 15px 45px;
+    font-size: 16px;
+}
+
+
+.our-service {
+    text-decoration: none;
+
+}
+.our-service:hover {
+    text-decoration: underline;
+}
+
+ /* service page css start  */
+
+ body{
+    margin-top:20px;
+    background:#eee;
+}
+.card::after {
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: 35px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    box-shadow: 0 19px 28px 5px rgba(64,64,64,0.09);
+    content: '';
+    z-index: -1;
+}
+a.card {
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09);
+}
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .25rem;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+    box-shadow: 0 12px 20px 1px rgba(64,64,64,0.09) !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.rounded-circle {
+    border-radius: 50% !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+
+.ml-auto, .mx-auto {
+    margin-left: auto !important;
+}
+
+.mr-auto, .mx-auto {
+    margin-right: auto !important;
+}
+.d-block {
+    display: block !important;
+}
+img, figure {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.card-text {
+    padding-top: 12px;
+    color: #8c8c8c;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+p, .p {
+    margin: 0 0 16px;
+}
+
+.card-title {
+    margin: 0;
+    font-family: "Montserrat",sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.pt-1, .py-1 {
+    padding-top: .25rem !important;
+}
+
+.head-icon{
+    margin-top:18px;
+    color:#FF4500
+}
+
+ /* service page csss end  */
